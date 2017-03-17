@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811278391E7BC7FF00EC58BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811278381E7BC7FF00EC58BD /* main.m */; };
+		8112783C1E7BC7FF00EC58BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112783B1E7BC7FF00EC58BD /* AppDelegate.m */; };
+		8112783F1E7BC7FF00EC58BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112783E1E7BC7FF00EC58BD /* ViewController.m */; };
+		811278421E7BC7FF00EC58BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811278401E7BC7FF00EC58BD /* Main.storyboard */; };
+		811278441E7BC7FF00EC58BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811278431E7BC7FF00EC58BD /* Assets.xcassets */; };
+		811278471E7BC7FF00EC58BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811278451E7BC7FF00EC58BD /* LaunchScreen.storyboard */; };
+		811278521E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811278511E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.m */; };
+		8112785D1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112785C1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.m */; };
+		811278811E7BCFC300EC58BD /* SFJScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112787E1E7BCFC300EC58BD /* SFJScrollLabel.m */; };
+		811278821E7BCFC300EC58BD /* SFJScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811278801E7BCFC300EC58BD /* SFJScrollLabelView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8112784E1E7BC7FF00EC58BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8112782C1E7BC7FF00EC58BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811278331E7BC7FF00EC58BD;
+			remoteInfo = SFJScrollLabelDemo;
+		};
+		811278591E7BC7FF00EC58BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8112782C1E7BC7FF00EC58BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811278331E7BC7FF00EC58BD;
+			remoteInfo = SFJScrollLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		811278341E7BC7FF00EC58BD /* SFJScrollLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFJScrollLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811278381E7BC7FF00EC58BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8112783A1E7BC7FF00EC58BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8112783B1E7BC7FF00EC58BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8112783D1E7BC7FF00EC58BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8112783E1E7BC7FF00EC58BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		811278411E7BC7FF00EC58BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811278431E7BC7FF00EC58BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811278461E7BC7FF00EC58BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811278481E7BC7FF00EC58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8112784D1E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJScrollLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811278511E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJScrollLabelDemoTests.m; sourceTree = "<group>"; };
+		811278531E7BC7FF00EC58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811278581E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJScrollLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8112785C1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJScrollLabelDemoUITests.m; sourceTree = "<group>"; };
+		8112785E1E7BC7FF00EC58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8112787D1E7BCFC300EC58BD /* SFJScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJScrollLabel.h; sourceTree = "<group>"; };
+		8112787E1E7BCFC300EC58BD /* SFJScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJScrollLabel.m; sourceTree = "<group>"; };
+		8112787F1E7BCFC300EC58BD /* SFJScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJScrollLabelView.h; sourceTree = "<group>"; };
+		811278801E7BCFC300EC58BD /* SFJScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJScrollLabelView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811278311E7BC7FF00EC58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8112784A1E7BC7FF00EC58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811278551E7BC7FF00EC58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8112782B1E7BC7FF00EC58BD = {
+			isa = PBXGroup;
+			children = (
+				811278361E7BC7FF00EC58BD /* SFJScrollLabelDemo */,
+				811278501E7BC7FF00EC58BD /* SFJScrollLabelDemoTests */,
+				8112785B1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests */,
+				811278351E7BC7FF00EC58BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811278351E7BC7FF00EC58BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811278341E7BC7FF00EC58BD /* SFJScrollLabelDemo.app */,
+				8112784D1E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.xctest */,
+				811278581E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811278361E7BC7FF00EC58BD /* SFJScrollLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8112783A1E7BC7FF00EC58BD /* AppDelegate.h */,
+				8112783B1E7BC7FF00EC58BD /* AppDelegate.m */,
+				8112783D1E7BC7FF00EC58BD /* ViewController.h */,
+				8112783E1E7BC7FF00EC58BD /* ViewController.m */,
+				8112787C1E7BCFC300EC58BD /* SFJScrollLabel */,
+				811278401E7BC7FF00EC58BD /* Main.storyboard */,
+				811278431E7BC7FF00EC58BD /* Assets.xcassets */,
+				811278451E7BC7FF00EC58BD /* LaunchScreen.storyboard */,
+				811278481E7BC7FF00EC58BD /* Info.plist */,
+				811278371E7BC7FF00EC58BD /* Supporting Files */,
+			);
+			path = SFJScrollLabelDemo;
+			sourceTree = "<group>";
+		};
+		811278371E7BC7FF00EC58BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				811278381E7BC7FF00EC58BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		811278501E7BC7FF00EC58BD /* SFJScrollLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				811278511E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.m */,
+				811278531E7BC7FF00EC58BD /* Info.plist */,
+			);
+			path = SFJScrollLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		8112785B1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8112785C1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.m */,
+				8112785E1E7BC7FF00EC58BD /* Info.plist */,
+			);
+			path = SFJScrollLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		8112787C1E7BCFC300EC58BD /* SFJScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8112787D1E7BCFC300EC58BD /* SFJScrollLabel.h */,
+				8112787E1E7BCFC300EC58BD /* SFJScrollLabel.m */,
+				8112787F1E7BCFC300EC58BD /* SFJScrollLabelView.h */,
+				811278801E7BCFC300EC58BD /* SFJScrollLabelView.m */,
+			);
+			path = SFJScrollLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811278331E7BC7FF00EC58BD /* SFJScrollLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811278611E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemo" */;
+			buildPhases = (
+				811278301E7BC7FF00EC58BD /* Sources */,
+				811278311E7BC7FF00EC58BD /* Frameworks */,
+				811278321E7BC7FF00EC58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFJScrollLabelDemo;
+			productName = SFJScrollLabelDemo;
+			productReference = 811278341E7BC7FF00EC58BD /* SFJScrollLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8112784C1E7BC7FF00EC58BD /* SFJScrollLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811278641E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemoTests" */;
+			buildPhases = (
+				811278491E7BC7FF00EC58BD /* Sources */,
+				8112784A1E7BC7FF00EC58BD /* Frameworks */,
+				8112784B1E7BC7FF00EC58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8112784F1E7BC7FF00EC58BD /* PBXTargetDependency */,
+			);
+			name = SFJScrollLabelDemoTests;
+			productName = SFJScrollLabelDemoTests;
+			productReference = 8112784D1E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		811278571E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811278671E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemoUITests" */;
+			buildPhases = (
+				811278541E7BC7FF00EC58BD /* Sources */,
+				811278551E7BC7FF00EC58BD /* Frameworks */,
+				811278561E7BC7FF00EC58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8112785A1E7BC7FF00EC58BD /* PBXTargetDependency */,
+			);
+			name = SFJScrollLabelDemoUITests;
+			productName = SFJScrollLabelDemoUITests;
+			productReference = 811278581E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8112782C1E7BC7FF00EC58BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "沙缚柩";
+				TargetAttributes = {
+					811278331E7BC7FF00EC58BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84NY46NBXF;
+						ProvisioningStyle = Automatic;
+					};
+					8112784C1E7BC7FF00EC58BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84NY46NBXF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811278331E7BC7FF00EC58BD;
+					};
+					811278571E7BC7FF00EC58BD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84NY46NBXF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811278331E7BC7FF00EC58BD;
+					};
+				};
+			};
+			buildConfigurationList = 8112782F1E7BC7FF00EC58BD /* Build configuration list for PBXProject "SFJScrollLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8112782B1E7BC7FF00EC58BD;
+			productRefGroup = 811278351E7BC7FF00EC58BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811278331E7BC7FF00EC58BD /* SFJScrollLabelDemo */,
+				8112784C1E7BC7FF00EC58BD /* SFJScrollLabelDemoTests */,
+				811278571E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811278321E7BC7FF00EC58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811278471E7BC7FF00EC58BD /* LaunchScreen.storyboard in Resources */,
+				811278441E7BC7FF00EC58BD /* Assets.xcassets in Resources */,
+				811278421E7BC7FF00EC58BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8112784B1E7BC7FF00EC58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811278561E7BC7FF00EC58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811278301E7BC7FF00EC58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8112783F1E7BC7FF00EC58BD /* ViewController.m in Sources */,
+				811278811E7BCFC300EC58BD /* SFJScrollLabel.m in Sources */,
+				811278821E7BCFC300EC58BD /* SFJScrollLabelView.m in Sources */,
+				8112783C1E7BC7FF00EC58BD /* AppDelegate.m in Sources */,
+				811278391E7BC7FF00EC58BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811278491E7BC7FF00EC58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811278521E7BC7FF00EC58BD /* SFJScrollLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811278541E7BC7FF00EC58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8112785D1E7BC7FF00EC58BD /* SFJScrollLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8112784F1E7BC7FF00EC58BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811278331E7BC7FF00EC58BD /* SFJScrollLabelDemo */;
+			targetProxy = 8112784E1E7BC7FF00EC58BD /* PBXContainerItemProxy */;
+		};
+		8112785A1E7BC7FF00EC58BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811278331E7BC7FF00EC58BD /* SFJScrollLabelDemo */;
+			targetProxy = 811278591E7BC7FF00EC58BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		811278401E7BC7FF00EC58BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811278411E7BC7FF00EC58BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		811278451E7BC7FF00EC58BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811278461E7BC7FF00EC58BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8112785F1E7BC7FF00EC58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811278601E7BC7FF00EC58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811278621E7BC7FF00EC58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		811278631E7BC7FF00EC58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		811278651E7BC7FF00EC58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFJScrollLabelDemo.app/SFJScrollLabelDemo";
+			};
+			name = Debug;
+		};
+		811278661E7BC7FF00EC58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFJScrollLabelDemo.app/SFJScrollLabelDemo";
+			};
+			name = Release;
+		};
+		811278681E7BC7FF00EC58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFJScrollLabelDemo;
+			};
+			name = Debug;
+		};
+		811278691E7BC7FF00EC58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 84NY46NBXF;
+				INFOPLIST_FILE = SFJScrollLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJScrollLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SFJScrollLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8112782F1E7BC7FF00EC58BD /* Build configuration list for PBXProject "SFJScrollLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8112785F1E7BC7FF00EC58BD /* Debug */,
+				811278601E7BC7FF00EC58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811278611E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811278621E7BC7FF00EC58BD /* Debug */,
+				811278631E7BC7FF00EC58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		811278641E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811278651E7BC7FF00EC58BD /* Debug */,
+				811278661E7BC7FF00EC58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		811278671E7BC7FF00EC58BD /* Build configuration list for PBXNativeTarget "SFJScrollLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811278681E7BC7FF00EC58BD /* Debug */,
+				811278691E7BC7FF00EC58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8112782C1E7BC7FF00EC58BD /* Project object */;
+}
