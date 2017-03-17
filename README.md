@@ -1,0 +1,6 @@
+# SFJScrollLabelDemo
+跑马灯效果的实现方案。适合设置一条text信息,多条需要自己组建text信息
+
+实现原理是，通过UIView的平移动画来实现的，为我们的需要滚动的label预先布置好一个会滚动的View。
+然后将我们创建好的label放在这个会滚动的view上，
+SFJScrollLabel继承制SFJScrollLabelView,当使用接口不满足需要时，不妨看看它父类的接口。
